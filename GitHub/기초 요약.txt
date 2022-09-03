@@ -8,7 +8,7 @@ $ touch test.html      # test.html 파일 생성 (파일명.확장자)
 $ vi test.html         # 실무 vim을 사용합니다.
 i                      # insert 편집 하기
 ESC                    # 편집 마침
-:wq!                   # 나가기 (!느낌표는 강제 종료이므로 사용 자제)
+:wq!                   # w저장 q닫기,나가기 (!느낌표는 강제 종료이므로 사용 자제)
 $ cat test.html        # text.html 파일 내용 출력    
 $ cd ..                # 상위 폴더 이동
 $ rmdir chaeryun0      # 폴더 삭제
