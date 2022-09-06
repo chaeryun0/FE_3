@@ -13,22 +13,26 @@
         <h1>
             <img src="" alt="모두의 HTML/CSS">
         </h1>
-        <nav>
+        <nav> /* <ul>,<li> 목록으로 나타내주는 것도 Ok */
             <a href="">HOME</a>
             <a href="">HTML</a>
             <a href="">CSS</a>
             <a href="">JavaScript</a>
         </nav>
+
         <article>
             <h2>사이트내 검색</h2>
             <form action="">
+						/* <lable for="inp-search">검색어 입력</label> */
                 <input type="search">
                 <button type="submit">검색 실행</button>
             </form>
         </article>
+
     </header>
-    <main>
-        <section>
+
+    <main> /* 메인 안에 3가지 섹션으로 구분 */
+        <section> /* section1 */
             <img src="" alt="손을 흔드는 라이켓">
             <h2>모두의 HTML/CSS</h2>
             <strong>
@@ -42,52 +46,57 @@
                 <a href="">30분 요약강좌 보러가기</a>
             </aside>
         </section>
-        <section>
+
+        <section> /* section2 */
             <h2>웹 언어와 즐거운 회사생활</h2>
             <dl>
                 <dt>HTML</dt>
-                <dd></dd>
-                <dd></dd>
+                <dd>Hypertext Markeup Language 하이퍼텍스트 마크업 언어</dd>
+                <dd>웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용</dd>
                 <dt>CSS</dt>
-                <dd></dd>
-                <dd></dd>
+                <dd>Cascading Style Sheet</dd>
+                <dd>HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어</dd>
                 <dt>JavaScript</dt>
-                <dd></dd>
-                <dd></dd>
+                <dd>일급 함수를 사용하는 가벼운 객체 지향 인터프리터 언어</dd>
+                <dd>웹페이지의 스크립트 언어로 잘 알려져 있지만, 브라우저가 아닌 환경에서도 많이 사용됨</dd>
             </dl>
-            <figure>
+
+            <figure> /* 이미지와 이미지에 대한 설명 */
                 <img src="" alt="땀흘리며 운동하는 뮤라">
                 <figcaption>
                     <time datetime="05:00">오전 5:00</time>
-                    <strong></strong>
-                    <p></p>
+                    <strong>헛둘셋넷 열심히 운동하기</strong>
+                    <p>amet consectetur adipisicing elit.</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="" alt="출근하다가 지렁이를 바라보는 소울곰">
                 <figcaption>
                     <time datetime="09:00">오전 9:00</time>
-                    <strong></strong>
-                    <p></p>
+                    <strong>지친몸 이끌고 출근하기</strong>
+                    <p>amet consectetur adipisicing elit.</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="" alt="치킨을 손에들고 신나게 퇴근하는 개리">
                 <figcaption>
                     <time datetime="18:00">오후 6:00</time>
-                    <strong></strong>
-                    <p></p>
+                    <strong>치킨과 함께하는 신나는 퇴근</strong>
+                    <p>amet consectetur adipisicing elit.</p>
                 </figcaption>
             </figure>
         </section>
-        <section>
+
+        <section> /* section3 */
             <h2>Lorem ipsum dolor sit amet.</h2>
-            <ol>
+            <ol> /* Tab을 각각 눌러주었을 때 Tab관련 해당 내용으로 변경됨 */
                 <li><button type="button">Tab1</button></li>
                 <li><button type="button">Tab2</button></li>
                 <li><button type="button">Tab3</button></li>
             </ol>
-            <section>
+
+            <section> /* 각각의 Tab과 연결되는 섹션 3가지 */
+						/* 추후 여기에 기능 구현, Tab1을 눌렀을 때 다른 Tab2,3은 숨김 처리 */
                 <h3>Tab1의 데이터 목록</h3>
                 <ol reversed start="10">
                     <li>
@@ -127,6 +136,7 @@
                     </li>
                 </ol>
             </section>
+
             <section>
                 <h3>Tab2의 데이터 목록</h3>
                 <ol reversed start="10">
@@ -167,6 +177,7 @@
                     </li>
                 </ol>
             </section>
+
             <section>
                 <h3>Tab3의 데이터 목록</h3>
                 <ol reversed start="10">
@@ -207,6 +218,7 @@
                     </li>
                 </ol>
             </section>
+/* 사용자 입장에서 버튼 위치를 잘 생각해야함, Tab을 누른 후 해당하는 내용이 먼저 읽히므로, <a>는 가장 마지막에 */
             <a href="">more +</a>
         </section>
         <section>
@@ -290,6 +302,4 @@
         <small>© Weniv all rights reserved</small>
     </footer>
 </body>
-
 </html>
- 
