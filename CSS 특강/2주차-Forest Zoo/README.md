@@ -15,5 +15,6 @@
 
 - sementic html 사용
 - header 마크업 ->  header 스타일링 ->  main 마크업 -> main 스타일링 순서로 작업
+- 그리드, 애니메이션 효과 추가
 
 <br>
