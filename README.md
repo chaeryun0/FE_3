@@ -1,7 +1,7 @@
 # 📚 [멋쟁이사자처럼] FE 3기 커리큘럼 📚
 
 
-| Week | __일자__ | *🐢* | __학습 내용__ | 
+| Week | 일자 | *🐢* | 학습 내용 | 
 | :-----------: | :-----------: | -- | ------------ | 
 | 1주차 | 22.08.29 ~ 22.09.02 | ☑️ | [OT, HTML/CSS, GitHub 기초, 코드라이언](https://github.com/chaeryun0/FrontendSchool_3/tree/main/1%EC%A3%BC%EC%B0%A8) |
 | 2주차 | 22.09.05 ~ 22.09.09 | ☑️ | [HTML/CSS - HTML Living Standard, 1만 시간의 법칙](https://github.com/chaeryun0/FrontendSchool_3/tree/main/2%EC%A3%BC%EC%B0%A8)
