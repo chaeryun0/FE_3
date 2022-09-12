@@ -1,0 +1,20 @@
+- **VSC extension 설치 및 단축키**
+    - 모든 단축키 : `Ctrl + K + S`
+    - Settings : `Ctrl + ,` (오른쪽 상단에 Settings.json file open으로 좀 더 다양한 커스터마이징 가능)
+    - Sidebar : `Ctrl + B`
+    - Terminal : `Ctrl + Shift + `` (백틱, 틸트, 템플릿리터럴)
+    - Command palette : `Ctrl + Shift + P, F1`
+    - 동시 선택 : `Ctrl + D` (2번 입력, `Ctrl + Shift + D`와 같은 역할)
+    - 동시 수정 : `Ctrl` + `Alt` + `방향키(상, 하)`, `Alt + Click`, `Alt + Shift + Drag`, `Alt + Shift + i`
+    - Quick Open : `Ctrl + P`
+    - 문장의 양 끝 : `Home` / `End`
+    - 코드의 양 끝 : `Ctrl + Home` / `Ctrl + End`
+    - 복사 / 붙여넣기 : `Ctrl + C` / `Ctrl + V` / `Alt + 방향키(위, 아래)`
+    - 단어 복사 : `Ctrl + Shift + 방향키(위, 아래)`
+    - 주석 : `Ctrl + /`
+    - 들여쓰기 / 내어쓰기 : `Ctrl + [` / `Ctrl + ]`, `tab`, `shift + tap`
+    - 파일 생성 : ctrl + N → ctrl + S → 파일명 001.html
+    - 반복 생성 : div{hello}*10
+    - 내용 수정 : cmd+ option
+    - 태그 수정 : cmd + d
+    - 기본 p태그 생성 : option + W
