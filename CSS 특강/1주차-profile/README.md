@@ -3,7 +3,7 @@
 
 ## 강의 내용 : CSS 이론
 
-## CSS 구조 설계 프로세스
+## 💡 CSS 구조 설계 프로세스
 
 <image src="https://user-images.githubusercontent.com/112460430/189595890-ea271495-38b6-491d-bbd8-6808050babf4.png">
 
@@ -14,7 +14,8 @@
 4. CSS 파일 상단에 초기화 코드를 작성해 각 tag들 가장 담백한 상태(raw)로 만들기  
 5. **class**를 사용하여 속성 부여하고, 요소 배치하며 섬세한 작업 시작
 
-## PROFILE 구현 실습
+  
+## 💡 PROFILE 구현 응용
   
 <img width="1426" alt="myprofile" src="https://user-images.githubusercontent.com/112460430/189602959-7c35c9ed-7989-4006-aeb0-42f0482d5e0e.png">
 
