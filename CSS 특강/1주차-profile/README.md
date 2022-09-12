@@ -5,7 +5,7 @@
 
 ### CSS 구조 설계 프로세스
 
-<image src="https://user-images.githubusercontent.com/112460430/189595890-ea271495-38b6-491d-bbd8-6808050babf4.png" width="150">
+<image src="https://user-images.githubusercontent.com/112460430/189595890-ea271495-38b6-491d-bbd8-6808050babf4.png">
 
 
 1. 설계할 웹의 전체적인 덩어리 나누기
