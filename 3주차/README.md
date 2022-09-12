@@ -7,5 +7,3 @@
 |09.14|수|HTML/CSS|CSS
 |09.15|목|HTML/CSS|CSS
 |09.16|금|HTML/CSS|선배특강, 노션특강
-
-<br>
