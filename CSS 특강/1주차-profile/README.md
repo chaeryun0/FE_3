@@ -14,5 +14,14 @@
 4. CSS 파일 상단에 초기화 코드를 작성해 각 tag들 가장 담백한 상태(raw)로 만들기  
 5. **class**를 사용하여 속성 부여하고, 요소 배치하며 섬세한 작업 시작
 
-### PROFILE 구현 실습
+## PROFILE 구현 실습
   
+<img width="1426" alt="myprofile" src="https://user-images.githubusercontent.com/112460430/189602959-7c35c9ed-7989-4006-aeb0-42f0482d5e0e.png">
+
+## ✔️ 개선점
+
+- sementic html 사용
+- CSS 요소 추가 
+- 마진 겹침 현상 해결 방안 적용
+
+<br>
