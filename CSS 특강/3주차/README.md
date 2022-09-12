@@ -4,7 +4,7 @@
 
 ## 💡 preview
 
-![preview](https://user-images.githubusercontent.com/112460430/189604662-fa56a846-d0df-4d91-82c1-c6e91985eece.png)
+![bucketlist](https://user-images.githubusercontent.com/112460430/189605523-820e2cc0-3161-44fe-93e6-349c463d4be2.png)
 
 ## 💡 My Bucket List 과제 응용
 
