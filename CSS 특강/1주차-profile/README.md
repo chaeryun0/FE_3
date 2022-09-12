@@ -1,9 +1,9 @@
 
-# CSS 특강 : 이종찬 강사님
+## 📚 1주차 CSS 특강 : 이종찬 강사님 📚
 
 ## 강의 내용 : CSS 이론
 
-### CSS 구조 설계 프로세스
+## CSS 구조 설계 프로세스
 
 <image src="https://user-images.githubusercontent.com/112460430/189595890-ea271495-38b6-491d-bbd8-6808050babf4.png">
 
