@@ -21,7 +21,7 @@
 
 ## ✔️ 개선점
 
-- sementic html 사용
+- 덩어리 구분, sementic html 사용
 - CSS 요소 추가 
 - 마진 겹침 현상 해결 방안 적용
 
