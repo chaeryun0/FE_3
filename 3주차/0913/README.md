@@ -72,4 +72,3 @@ text-decoration : 텍스트의 장식을 설정 (none은 효과제거, underline
 ## text
 
 ![image](https://user-images.githubusercontent.com/112460430/189912069-ceb86ab8-ed6e-4eab-a8ea-e5a2a1e9fd74.png)
-
