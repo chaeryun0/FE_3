@@ -4,10 +4,10 @@
 
 ## h1과 p 의 기본단위
 
-    h1의 기본px : 32px;
-    p의 기본px : 16px;
+h1의 기본px : 32px;
+p의 기본px : 16px;
 
-고정 단위로 주면 좋은 것 : 패딩, 마진, 모니터 크기에 따라 상관없이 보일 것들,이미지, 반응형 고려하지 않아도 될 때, 글씨와 관련 없는 것들, 계산하기 쉬워야 하는 것들
+고정 단위로 주면 좋은 것 : 패딩, 마진, 모니터 크기에 따라 상관없이 보일 것들,이미지, 반응형 고려하지 않아도 될 때, 글씨와 관련 없는 것들, 계산하기 쉬워야 하는 것들 <br>
 가변 단위로 주면 좋은 것 : 패딩,마진,이미지, 폰트
 
 ## 1. 고정 단위란? 
@@ -27,7 +27,6 @@ ex) 버튼(large, medium, small) 등에 텍스트의 비율에 따라 달라져�
 ### rem
 rem은 html의 폰트사이즈를 기준으로 정해짐, 기본적으로 em보다 많이 쓰임
 
-<br>
 
 ## overflow 속성
 
@@ -37,23 +36,21 @@ rem은 html의 폰트사이즈를 기준으로 정해짐, 기본적으로 em보�
 - hidden : 콘텐츠를 요소의 크기만큼 맞추기 위해 잘라냄
 - scroll : 콘텐츠를 요소의 크기만큼 맞추기 위해 잘라냄, 잘려진 나머지 부분을 확인 할 수 있도록 스크롤 바(x축, y축 모두) 제공
 
-<br>
 
 ## background-image
 
 1) background-image : url을 이용해 이미지의 주소에서 이미지를 불러옴
 2) background-color : 요소의 배경 색 지정
 3) background-repeat : 배경이미지를 어떻게 반복할것인지 지정
-	- repeat 기본값
-	- no-repeat
-	- repeat-x
-	- repeat-y
-	- round
-	- space
+- repeat 기본값
+- no-repeat
+- repeat-x
+- repeat-y
+- round
+- space
 4) background-position : 배경이미지의 위치를 지정
 5) background-size
 
-<br>
 
 ## font
 
@@ -62,7 +59,6 @@ font-style : 기울기 글꼴로 표현 (normal 일반 스타일, italic 필기�
 text-align : 텍스트의 정렬을 표현 (justify는 마지막 줄을 제외하고 양쪽으로 정렬)
 text-decoration : 텍스트의 장식을 설정 (none은 효과제거, underline은 밑줄)
 
-<br>
 
 ## opacity
 
@@ -70,5 +66,7 @@ text-decoration : 텍스트의 장식을 설정 (none은 효과제거, underline
 - 이때 투명도가 들어간 요소 안의 내용물도 함께 투명 해짐
 - 값은 0.0 과 1 사이의 숫자를 지정할 수 있으며 만약 값이 0.5라면 투명도는 50%
 
+## text
 
+![image](https://user-images.githubusercontent.com/112460430/189912069-ceb86ab8-ed6e-4eab-a8ea-e5a2a1e9fd74.png)
 
