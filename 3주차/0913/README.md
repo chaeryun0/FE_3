@@ -4,8 +4,8 @@
 
 ## h1과 p 의 기본단위
 
-h1의 기본px : 32px; <br>
-p의 기본px : 16px;
+- h1의 기본px : 32px; <br>
+- p의 기본px : 16px;
 
 - 고정 단위로 주면 좋은 것 : 패딩, 마진, 모니터 크기에 따라 상관없이 보일 것들,이미지, 반응형 고려하지 않아도 될 때, 글씨와 관련 없는 것들, 계산하기 쉬워야 하는 것들 <br>
 - 가변 단위로 주면 좋은 것 : 패딩,마진,이미지, 폰트
@@ -42,12 +42,12 @@ rem은 html의 폰트사이즈를 기준으로 정해짐, 기본적으로 em보�
 1) background-image : url을 이용해 이미지의 주소에서 이미지를 불러옴
 2) background-color : 요소의 배경 색 지정
 3) background-repeat : 배경이미지를 어떻게 반복할것인지 지정
-- repeat 기본값
-- no-repeat
-- repeat-x
-- repeat-y
-- round
-- space
+    - repeat 기본값
+    - no-repeat
+    - repeat-x
+    - repeat-y
+    - round
+    - space
 4) background-position : 배경이미지의 위치를 지정
 5) background-size
 
