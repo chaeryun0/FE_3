@@ -1,5 +1,6 @@
 
-<image src="https://user-images.githubusercontent.com/112460430/190165502-9273dbbc-417f-4942-b348-260afd6fa816.png" width="50px">  
+<image src="https://user-images.githubusercontent.com/112460430/190165502-9273dbbc-417f-4942-b348-260afd6fa816.png" width="40px">  
+  
 # 1주차 CSS 특강 : 이종찬 강사님 
 
 ## 강의 내용 : CSS 이론
