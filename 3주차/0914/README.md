@@ -18,23 +18,22 @@ vertical-align: bottom;
 
 ```
 text-overflow 속성은 그 자체만으로 넘친 컨텐츠를 만들어서 처리하지 않는다. 
-컨테이너에 overflow:hidden, white-space:nowrap 속성이 같이 사용되어야 한다. <br>
+컨테이너에 overflow:hidden, white-space:nowrap 속성이 같이 사용되어야 한다.
 
--text-overflow:hidden 텍스트가 컨텐츠 넓이를 넘쳤을 때 넘치는 글씨 가려줌 <br>
-
-- white-space : nowrap 컨텐츠 넓이보다 글씨가 넘치면 자동으로 줄바꿈이 되는걸 막아줌 <br>
-
+-text-overflow:hidden 텍스트가 컨텐츠 넓이를 넘쳤을 때 넘치는 글씨 가려줌
+- white-space : nowrap 컨텐츠 넓이보다 글씨가 넘치면 자동으로 줄바꿈이 되는걸 막아줌
 → 줄바꿈을 white-space로 막아주고 text-overflow:ellipsis로 처리
 ```
 
 ## 📚 position
 
+```
 - position : static (기본값)
 - position : relative (기준 = 내 원래 위치를 기준으로 이동)
 - position : absolute (기준 = 내 부모 (가장 가까운 부모의 박스 내를 기준으로 position: relative 를 가지고 있는 부모 기준))
 - position : fixed (기준 = 현재 브라우저 화면(viewport) 기준, 스크롤을 움직여도 고정되는 요소가 필요할 때 사용)
 - position : sticky (조상에 스크롤이 있다면 가장 가까운 부모 요소의 컨텐츠 영역에 달라붙음)
-
+```
  
 ## 📚 z-index
 
