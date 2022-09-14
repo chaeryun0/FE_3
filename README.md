@@ -3,8 +3,8 @@
 
 | Week | 일자 | *🐢* | 학습 내용 | 
 | :-----------: | :-----------: | -- | ------------ | 
-| 1주차 | ```22.08.29 ~ 22.09.02``` | ☑️ | [OT, HTML/CSS, GitHub 기초, 코드라이언](https://github.com/chaeryun0/FrontendSchool_3/tree/main/1%EC%A3%BC%EC%B0%A8) |
-| 2주차 | ```22.09.05 ~ 22.09.09``` | ☑️ | [HTML/CSS - HTML Living Standard, 1만 시간의 법칙](https://github.com/chaeryun0/FrontendSchool_3/tree/main/2%EC%A3%BC%EC%B0%A8)
+| ```1주차``` | ```22.08.29 ~ 22.09.02``` | ☑️ | [```OT, HTML/CSS, GitHub 기초, 코드라이언```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/1%EC%A3%BC%EC%B0%A8) |
+| 2주차 | ```22.09.05 ~ 22.09.09``` | ☑️ | [```HTML/CSS - HTML Living Standard, 1만 시간의 법칙```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/2%EC%A3%BC%EC%B0%A8)
 | 3주차 | ```22.09.12 ~ 22.09.16``` | ☐ | [```HTML/CSS```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/3%EC%A3%BC%EC%B0%A8) |
 | 4주차 | ```22.09.19 ~ 22.09.23``` | ☐ |  |
 | 5주차 | ```22.09.26 ~ 22.09.30``` | ☐ |  |
