@@ -50,9 +50,10 @@ text-overflow 속성은 그 자체만으로 넘친 컨텐츠를 만들어서 처
   
 <image src="https://user-images.githubusercontent.com/112460430/190188224-a3501352-7bfb-402e-83b2-4425bfa33657.png" width="50%"> 
 
-- 위와 같이 normal flow에 속한 요소들은 normal flow에서 벗어난 float, position 속성이 적용된 요소들을 인식하지 못한다.
+위와 같이 normal flow에 속한 요소들은 normal flow에서 벗어난 float, position 속성이 적용된 요소들을 인식하지 못한다.
    
-#### 이를 해결하기 위한 방법
+### 이를 해결하기 위한 방법
+   
 1. 부모 요소에 **overflow 속성** 추가
 2. 부모 요소의 **높이 값을 직접 지정**
 3. `float` 이 사용된 요소의 바로 다음 형제 요소에 `clear` 속성을 사용 (`clear: borh;`)
