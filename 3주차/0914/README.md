@@ -54,8 +54,8 @@ text-overflow 속성은 그 자체만으로 넘친 컨텐츠를 만들어서 처
    
 ### 이를 해결하기 위한 방법
    
-1. 부모 요소에 **overflow 속성** 추가
-2. 부모 요소의 **높이 값을 직접 지정**
+1. 부모 요소에 `overflow` 속성 추가
+2. 부모 요소의 높이 값을 직접 지정
 3. `float` 이 사용된 요소의 바로 다음 형제 요소에 `clear` 속성을 사용 (`clear: borh;`)
 4. clear-fix 방법 (`::after` 가상요소로 해결)
 5. 이외에도 **BFC(Block Formatting Context)** 를 만들어내는 여러가지 방법들을 사용
