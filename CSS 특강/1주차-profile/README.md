@@ -1,7 +1,6 @@
 
-<image src="https://user-images.githubusercontent.com/112460430/190165502-9273dbbc-417f-4942-b348-260afd6fa816.png" width="40px">  
+# 1주차 CSS 특강 : 이종찬 강사님 <image src="https://user-images.githubusercontent.com/112460430/190165502-9273dbbc-417f-4942-b348-260afd6fa816.png" width="40px">  
   
-# 1주차 CSS 특강 : 이종찬 강사님 
 
 ## 강의 내용 : CSS 이론
 
@@ -21,7 +20,7 @@
   
 <img width="1426" alt="myprofile" src="https://user-images.githubusercontent.com/112460430/189602959-7c35c9ed-7989-4006-aeb0-42f0482d5e0e.png">
 
-## ✔️ 개선점
+## ✔️ 개선된 점
 
 - 덩어리 구분, sementic html 사용
 - CSS 요소 추가 
