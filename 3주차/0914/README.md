@@ -61,3 +61,4 @@ text-overflow 속성은 그 자체만으로 넘친 컨텐츠를 만들어서 처
 5. 이외에도 **BFC(Block Formatting Context)** 를 만들어내는 여러가지 방법들을 사용
     
  -> **BFC** : 웹페이지 화면에 CSS를 랜더링하는 과정의 한 부분으로, block 레벨 요소들이나 float 된 요소들이 서로 상호작용 하여 화면에 보여지게 되는 방법(block formatting)을 결정하는 구역(context)
+
