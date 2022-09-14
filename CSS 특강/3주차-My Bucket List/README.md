@@ -9,6 +9,6 @@
      
 ## 💡 My Bucket List 과제 구현
 
-
+![mybucketlist](https://user-images.githubusercontent.com/112460430/190165081-3a7bbb86-c3d8-4c24-a81e-b1f7285fb5d1.png)
 
 <br>
