@@ -18,4 +18,4 @@
 - box-shadow 효과
 
 <br>
-👉🏻 추후 js로 응용 예정
+👉🏻 추후 js, pseudocode 응용 예정
