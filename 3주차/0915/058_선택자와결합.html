@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            ::selection {
+                color: gold;
+                background-color: red;
+            }
+
+            /* 선택자와 결합하여 사용된 선택된 텍스트 스타일 */
+            strong::selection {
+                color: white;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            molestiae, id repudiandae <strong>commodi</strong> quae natus culpa
+            rem similique sit nam. Sequi beatae repudiandae hic pariatur ipsam
+            amet tenetur corrupti eius.
+        </p>
+    </body>
+</html>
