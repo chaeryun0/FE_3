@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            /* class로 해서 혼동이 있는 것이지 아래처럼 data라는 필드를 가진 곳에서 사용할 수도 있음 */
+            /* div[data~="weniv"] { div 태그이면서 data 명이 weniv인 요소
+                color: black;
+            } */
+
+            /* 리디북스 예 */
+            /* div[data-track-params~="weniv"] {
+                color: black;
+            } */
+
+            div[class~="weniv"] { /* div 태그이면서 weniv인 class를 가지고 있는 요소 */
+                color: black;
+            }
+            div.weniv {
+                color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="weniv">hello world</div>
+    </body>
+</html>
