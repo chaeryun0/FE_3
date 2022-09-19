@@ -4,4 +4,5 @@
 
 ## 💡 preview
 
-![preview](https://user-images.githubusercontent.com/112460430/190958274-8abecedf-87a8-4c65-aa2b-060a74769ce6.png)
+![image](https://user-images.githubusercontent.com/112460430/190958345-98b3d9e2-64a8-46ae-9d20-2b44b20b0d6c.png)
+
