@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위니브 로그인</title>
+<style>
+  * {
+  box-sizing: border-box;
+}
+body,
+h2 {
+  margin: 0;
+}
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  vertical-align: top;
+}
+button {
+  padding: 0;
+  border: none;
+  color: inherit;
+}
+.login {
+  width: 350px;
+  margin: 100px auto;
+  padding: 19px 15px 16px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  font-size: 12px;
+  }
+
+.login-button {
+  background: #711BFF;
+  border-radius: 4px;
+  margin: 16px 0;
+  padding: 13px 0;
+  width: 100%;
+  color: #FFFFFF;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.login-button img {
+  vertical-align: top;
+  height: 1.1em;
+}
+
+.find {
+  position: relative;
+  color: #767676;
+}
+
+.find-id {
+  margin-left: 1.5em;
+  position: relative;
+}
+
+.find-id::before {
+  content: "";
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.3em;
+  background-image: url(/images/icon-lock.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -1.5em;
+}
+
+.find-id::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 1.1em;
+  position: absolute;
+  background-color: #767676;
+  right: -0.6em;
+}
+
+.find-pw {
+  margin-left: 0.9em;
+}
+
+.join {
+  position: absolute;
+  right: 0;
+}
+
+.join::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 1.2em;
+  height: 1.3em;
+  left: -1.5em;
+  background-image: url(/images/icon-user.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+</style>
+
+  </head>
+<body>
+  <section class="login">
+    <h2>더 편리해진 위니브에 오신 것을 환영합니다.</h2>
+    <button class="login-button" type="button">
+      <img src="/images/weniv-logo.png" alt="로그인">
+    </button>
+    
+    <div class="find">
+      <a class="find-id"  href="">아이디</a>
+      <a class="find-pw" href="">비밀번호찾기</a>
+      <a class="join" href="">회원가입</a>
+    </div>
+
+  </section>
+  
+</body>
+</html>
