@@ -8,8 +8,8 @@
 
 ```
 .container {
-  perspective-origin: 30% 30%  /* 시점의 위치 : X좌표 30% , Y 좌표 30% */
-  perspective:400px;          /* 나와 요소는 400px 떨어져 있음 (z축), 값이 적을수록 더 가까이 확대되어 보임 */ 
+  perspective-origin: 30% 30%   // 시점의 위치 : X좌표 30%, Y 좌표 30% 
+  perspective:400px;           //  나와 요소는 400px만큼 떨어져 있음, 값이 적을수록 더 가까이 확대되어 보임
 }
 
 /* perspective-origin : 3D 요소를 어디서 바라볼지 방향 지정, 원근 거리의 기준점 설정, 나의 위치를 바꿀 수 있으며 이에 따라 소실점의 위치도 바뀜 */
@@ -18,10 +18,10 @@
 	
 ```
 .back {
-  transform: rotateY(180deg); /* 요소를 뒤집음 */
+  transform: rotateY(180deg);  // 요소를 뒤집음
 }
 	
-- backface-visibility: visible; /* 기본값 : 뒷면이 나를 향할때 보임 */
+- backface-visibility: visible; // 기본값 : 뒷면이 나를 향할때 보임
 - backface-visibility: hidden;
 
 	
