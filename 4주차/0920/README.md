@@ -17,9 +17,8 @@
 
 	
 ```
-.back {
-  transform: rotateY(180deg);  // 요소를 뒤집음
-}
+
+- transform: rotateY(180deg);  // 요소를 뒤집음
 	
 - backface-visibility: visible; // 기본값 : 뒷면이 나를 향할때 보임
 - backface-visibility: hidden;
