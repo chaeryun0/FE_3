@@ -4,7 +4,7 @@
 - 부모 요소에게 주면 직계 자식들에게 적용된다.
 - 기본적으로 소실점이 존재하며 소실점은 정중앙에 위치
 
-![image](https://user-images.githubusercontent.com/112460430/191278627-eed17e53-41ab-4176-9c8f-0d70da234c38.png)
+<image src="https://user-images.githubusercontent.com/112460430/191278627-eed17e53-41ab-4176-9c8f-0d70da234c38.png" width="100%">
 
 ```
 .container {
