@@ -1,4 +1,6 @@
-# 🦁 Code Lion 🦁 일단 만드는 JavaScript
+# 🦁 Code Lion 🦁 
+
+## 일단 만드는 JavaScript
 
 ## 1. 로또 번호 추첨기
 
