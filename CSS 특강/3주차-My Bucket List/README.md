@@ -11,7 +11,7 @@
 
 ![mybucketlist](https://user-images.githubusercontent.com/112460430/190165081-3a7bbb86-c3d8-4c24-a81e-b1f7285fb5d1.png)
 
-## ✔️ 개선된 점
+## ✓ 개선된 점
 
 - 컨텐츠 전달에 용이한 구조 (line-height, margin)
 - margin 밀림 현상 해결
