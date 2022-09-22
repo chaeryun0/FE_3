@@ -20,9 +20,8 @@
   
 <img width="1426" alt="myprofile" src="https://user-images.githubusercontent.com/112460430/189602959-7c35c9ed-7989-4006-aeb0-42f0482d5e0e.png">
 
-## ✔️ 개선된 점
+## ✓ 개선된 점
 
 - 덩어리 구분, sementic html 사용
 - CSS 요소 추가 
 - 마진 겹침 현상 해결 방안 적용
-<br>
