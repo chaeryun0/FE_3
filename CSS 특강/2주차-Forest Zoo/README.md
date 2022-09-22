@@ -11,7 +11,7 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/112460430/189598996-709160e3-6a74-4b05-9d07-3869dac90bc6.gif)
 
 
-## ✔️ 개선된 점
+## ✓ 개선된 점
 
 - header 마크업 ->  header 스타일링 ->  main 마크업 -> main 스타일링 순서로 작업
 - 그리드, 애니메이션 효과
