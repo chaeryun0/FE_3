@@ -2,7 +2,7 @@
 
 
 | Week | 일자 | *🐢* | 학습 내용 | 
-| :-----------: | :---------------: | -- | ---------------- | 
+| :-----------: | :-------------------: | --- | -------------------------- | 
 | ```1주차``` | ```22.08.29 ~ 22.09.02``` | ☑︎ | [```OT, HTML/CSS, GitHub 기초, 코드라이언, CSS 특강```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/1%EC%A3%BC%EC%B0%A8) |
 | ```2주차``` | ```22.09.05 ~ 22.09.09``` | ☑︎ | [```HTML/CSS - HTML Living Standard, 개발자 성장 워크샵, 1만 시간의 법칙, CSS 특강```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/2%EC%A3%BC%EC%B0%A8)
 | ```3주차``` | ```22.09.12 ~ 22.09.16``` | ☑︎ | [```HTML/CSS, CSS 특강, FE 취업 특강```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/3%EC%A3%BC%EC%B0%A8) |
