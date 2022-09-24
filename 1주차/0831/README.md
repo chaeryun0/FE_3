@@ -1,10 +1,9 @@
 ## 📚 시맨틱(Semantic) 태그
     
-    
+
  > 시맨틱 태그란 의미가 있는 태그를 말한다. 
  > 모든 block 영역은 div 태그로, inline 요소는 span 태그와 달리, header, main, footer, section, article과 같은 태그 자체에 의미가 담긴 태그를 말한다.
-    
-<br>  
+      
 
 ## 🤔 시맥틱 태그를 사용하는 이유
 
