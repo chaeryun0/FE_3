@@ -30,9 +30,12 @@
 > SVG가 필요하지만 이미지에 별다른 조작을 가하지 않을 것이라면 👉🏻 ```<img/>``` 또는 ```background-image``` <br>
 > SVG가 필요하고 이미지에 조작을 가할 것이라면 👉🏻 ```인라인``` 또는 ```<object>```
 
-  
+<img svg-frog src="https://user-images.githubusercontent.com/112460430/192587732-f096791a-5024-40ee-9bc6-25eb0e3e1b3b.gif" width="25%">
+
+
 # 📚 Sass(Syntactically Awesome Stylesheets)
-  
+ 
+
 > **CSS로 컴파일 되는 스타일 시트 확장 언어이며 CSS 전처리기의 하나**<br>
   
 > CSS를 편리하게 작성하게 해주는 스타일 시트 확장 언어이며, CSS로 컴파일이 된다. <br>
