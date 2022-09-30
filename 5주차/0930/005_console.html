@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      console.log("hello");
+
+      let data = {
+        a: 10,
+        one: 1,
+        twe: 2,
+        three: 3,
+        c: 100,
+        b: 3,
+      };
+      // 그냥 출력했을 때는 알파벳 순
+
+      console.dir(data); // dir은 형태로 출력 (요소와 그 안의 값을 출력)
+      // data.toString();
+
+      let data2 = [10, 20, 30]; // length 3
+      console.dir(data2);
+
+      console.info();
+      console.group(); // 데이터를 계층적으로 표현할 때
+      console.groupEnd(); // 그룹을 마지막에 끝낼 때
+
+      console.group("one"); // one 그룹
+      console.log("호준/팀원");
+      console.log("유정/팀원");
+      console.log("혜연/팀원");
+      console.group("two"); // two 그룹
+      console.log("태수/팀장");
+      console.log("슬기/팀장");
+      console.groupEnd();
+      console.log("end");
+      console.groupEnd();
+      console.log("end");
+
+      console.table(); // 테이블 형태
+      console.warn(); // 괄호안 문구로 경고창 표시
+      console.error(); // 괄호 안 문구로 에러 표시
+    </script>
+  </body>
+</html>
