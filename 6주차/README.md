@@ -6,4 +6,4 @@
 |10.04|화|Javascript|Javascript 기초 
 |10.05|수|Javascript|Javascript 기초 
 |10.06|목|Javascript|Javascript 기초 
-|10.07|금|Javascript|Javascript 기초, 특강
+|10.07|금|Javascript|Javascript 기초, HTML/CSS, GitHub 특강
