@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 쇼핑몰에 들어왔다고 가정할 때, VIP회원으로 로그인 되었을 때 가격 혜택을 받을 수 있는 경우 사용자에게 다른 UI 보여주기 -->
+    <figure>
+      <img src="" alt="" />
+      <figcaption>
+        상품가격 : 39,900원
+        <span class="hidden"
+          >(주의) VIP 회원이 아니시라면 혜택을 받으실 수 없습니다.</span
+        >
+      </figcaption>
+    </figure>
+
+    <script>
+      const txt = document.querySelector("figcaption"); // figcaption의 상품 가격만 가져오려면?
+
+      // textContent로 텍스트 노드에 접근하면 숨기고 싶은 정보까지 노출될 수 있음
+      console.log(txt.textContent); // 첫번째 방법 // 스타일 상관없이 모두 가져옴
+      console.log(txt.innerHTML); // 두번째 방법 // 렌더링된 사람이 볼 수 있는 것만 가져옴
+    </script>
+  </body>
+</html>

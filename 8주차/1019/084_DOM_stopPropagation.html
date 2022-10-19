@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <h1>나의 todo list</h1>
+    <p>
+      1. 오늘 저녁에는 부대찌게를 끓여 먹겠다.<button type="button">
+        삭제
+      </button>
+    </p>
+    <p>2. 후식으로 슈팅스타를 먹겠다.<button type="button">삭제</button></p>
+    <p>
+      3. 자기 전에 반드시 내일 아침 메뉴를 생각해두겠다.<button type="button">
+        삭제
+      </button>
+    </p>
+
+    <script>
+      const txts = document.querySelectorAll("p");
+      const btns = document.querySelectorAll("button");
+
+      // IE에서 for of문은 제한되므로 for of문 작성 불가
+      // for (const item of txts) {
+      //     item.addEventListener('click', () => { // target안에 있는 텍스트 컨텐츠를 모두 가져와서 알림창 띄우기
+      //         alert(event.target.textContent.slice(0, -2)); 버튼의 삭제 텍스트 지우기
+      //     })
+      // }
+
+      // NodeList의 forEach문도 IE 제한되므로 IE는 NodeList에 forEach문 작성 불가
+      // txts.forEach(item => { // txts는 배열이 아니고 노드리스트 // forEach는 arr메서드 이지만 노드리스트에서 사용할 수 있는 forEach문이 따로 있음
+      //     item.addEventListener('click', () => {
+      //         alert(event.target.textContent.slice(0, -2));
+      //     })
+      // })
+
+      // IE 대응 forEach문 코드 리팩토링
+      Array.prototype.forEach.call(txts, (item) => {
+        // 버블링을 통해 p 태그에 실행됨
+        item.addEventListener("click", () => {
+          alert(event.target.textContent.slice(0, -2));
+        });
+      });
+
+      for (const item of btns) {
+        item.addEventListener("click", (event) => {
+          const result = confirm("삭제 하시겠습니까?");
+
+          // 버블링 차단 (부모에 있는 이벤트 실행 안됨)
+          event.stopPropagation();
+          if (result) {
+            item.parentElement.remove();
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
