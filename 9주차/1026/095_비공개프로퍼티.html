@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      // 모듈 + 사용자 정의 혼합패턴
+      // Person 함수 안에 또다른 함수 innerPerson을 만들어서 생성자 함수로 밖으로 빼낸다.
+      function Person() {
+        let age = 30; // 비공개 프로퍼티로 // 클로저 공간에 해당, 더이상 외부에 접근할 수 없게함
+
+        function innerPerson() {} // 밖으로 빼내줄 생성자 함수
+
+        innerPerson.prototype.getAge = function () {
+          return age;
+        };
+
+        return innerPerson; // 리턴함으로써 Person 함수는 메모리에서 해제됨
+      } // age에 접근하는 방식이 사라짐 // innerPerson() 함수가 사라질 것이므로
+
+      const PersonFunc = Person(); // innerPerson이 저장되고 innerPerson() 함수 공간은 사라짐 // Person 밖에서 생성자 함수로써 사용
+      const person = new PersonFunc(); // 생성자 함수 실행 // person이라는 인스턴스가 만들어짐
+
+      // IIFE 패턴으로 변경해보기
+      // (function () {
+      //     console.log('IIFE');
+      // })();
+
+      // IIFE를 이용한 모듈 사용자 정의 혼합패턴
+      const NewPerson = (function () {
+        let age = 30;
+
+        function innerPerson() {} // 코드가 실행되는 순간 innerPerson()을 밖으로 리턴해서 NewPerson 상수에 집어넣게 됨
+
+        innerPerson.prototype.getAge = function () {
+          return age;
+        };
+
+        return innerPerson;
+      })();
+
+      const personWithSecret = new NewPerson();
+    </script>
+  </body>
+</html>

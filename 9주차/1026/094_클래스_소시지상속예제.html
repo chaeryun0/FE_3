@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      // 소시지 상속
+      class Sausage {
+        constructor(el1, el2) {
+          this.inside1 = el1;
+          this.inside2 = el2;
+        }
+        // 소시지 객체가 가지고 있는 메서드 taste()
+        taste() {
+          console.log(`${this.inside1} 와 ${this.inside2} 맛이 난다!`);
+        }
+      }
+      // const sausage = new Sausage('닭고기', '양파') // undefined : 닭고기, 양파 매개변수로 전달
+      // sausage // Sausage {inside1: '닭고기', inside2: '양파'}
+      // sausage.taste(); // 닭고기 와 양파 맛이 난다!
+
+      // 소시지 클래스를 상속받는 FiresSausage 파생클래스를 생성
+      class FireSausage extends Sausage {
+        // 소시지 상속을 받아옴
+        constructor(el1, el2, el3) {
+          // 3가지 프로퍼티를 넣을 수 있게 됨
+          super(el1, el2); // 부모의 프로퍼티를 생성, 부모 클래스에 있는 constructor 함수의 el1,el2를 전달해서 실행한 것과 같은 결과
+          this.inside3 = el3; // FireSausage에 inside3 프로퍼티를 만들어서 el3 할당
+        }
+        // 재정의
+        taste() {
+          console.log(
+            // 부모를 상속받게 됨
+            `${this.inside1} 와 ${this.inside2} 와 ${this.inside3} 맛이 난다!`
+          );
+        }
+      }
+      // const fireSausage2 = new FireSausage('돼지고기','파','불'); // undefined
+      // fireSausage2.taste(); // 돼지고기 와 파 와 불 맛이 난다!
+    </script>
+  </body>
+</html>

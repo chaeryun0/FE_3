@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .target {
+        width: 50px;
+        height: 50px;
+        background-color: pink;
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="target"></div>
+    <script>
+      const target = document.querySelector(".target");
+      let pos = 0; // 포지션 값 누적
+
+      // 사용자가 누르는 키의 상태를 저장하는 객체
+      let keys = {};
+      // ArrowLeft: true;
+
+      function move(event) {
+        // keys 객체를 변경
+        keys[event.key] = true; // 대괄호 사용하는 것은 객체 안의 값에 접근할 때 객체의 키 값이 string일 경우 .연산자 접근은 불가
+      } // 이벤트로 전달받은 키의 이름이 keys객체 안에 저장되고, 값은 true
+
+      function stop(event) {
+        keys[event.key] = false;
+      }
+
+      document.addEventListener("keydown", move); // keydown 이벤트 실행시 move 함수 실행
+      document.addEventListener("keyup", stop);
+
+      function play() {
+        if (keys.ArrowRight) {
+          // 값이 true 라면 값이 계속 증가하고 이동 // 값이 false일 때 중단
+          pos += 2;
+          target.style.transform = `translateX(${pos}px)`;
+        }
+
+        if (keys.ArrowLeft) {
+          pos -= 2;
+          target.style.transform = `translateX(${pos}px)`;
+        }
+
+        window.requestAnimationFrame(play);
+      }
+
+      window.requestAnimationFrame(play);
+    </script>
+  </body>
+</html>
