@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>리액트 1분만에 추가해보기!</title>
+  </head>
+  <body>
+    <h1>내 html에 리액트 1분만에 추가해보기!</h1>
+    <p>단 1분만에 설치없이 리액트를 추가할 수 있다구요?</p>
+    <div id="root"></div>
+    <!-- text/babel 스크립트에서 #root를 불러옴 -->
+    <!-- react 라이브러리를 불러오기 위해 js 호출 시 crossorigin 사용, react와 react-dom 라이브러리를 추가하는 스크립트 -->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+      function HelloButton(props) {
+        return <button onClick={() => console.log("실행")}>Hello</button>;
+      }
+      // `return <button onClick={() => console.log("실행")}>Hello</button>` 기존 자바스크립트
+      // JSX 문법: 괄호로 묶어서 태그를 사용할 수 있음, 바벨에서 사용할 수 있게 호환해주는 문법
+      // 함수로 되어있는 HelloButton을 컴포넌트로 태그처럼 호출
+      // 기존 태그를 넣을 수도 있고 함수형 컴포넌트로도 넣을 수 있음
+      // 자바스크립트 코드도 넣을 수 있음, 숫자 계산 가능
+      const app = (
+        <div>
+          <p>{10 + 20}</p>
+          <p>{HelloButton()}</p>
+          <HelloButton />
+          <HelloButton />
+          <HelloButton />
+          <HelloButton />
+          <HelloButton />
+        </div>
+      );
+
+      // DOM에 리액트 컴포넌트 랜더링하기
+      const domContainer = document.querySelector("#root");
+      ReactDOM.render(app, domContainer);
+      // domContainer에 위 작업을 담아 그려주게 된다.
+    </script>
+  </body>
+</html>
