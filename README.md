@@ -20,7 +20,7 @@
 | ```15주차``` 	| ```22.12.05 ~ 22.12.09``` 	| ☑︎   	| [```Webpack, Firebase, GitHub 심화```](https://github.com/chaeryun0/FrontendSchool_3/tree/main/15%EC%A3%BC%EC%B0%A8)                                                                                                                                                                      	|   	|
 | ```16주차``` 	| ```22.12.12 ~ 22.12.16``` 	| ☑︎   	| [```프로젝트, 이력서 특강```](https://github.com/likelion-devone/snappy)                                                                                                                                                                      	|   	|
 | ```17주차``` 	| ```22.12.19 ~ 22.12.23``` 	| ☑︎   	|  [```프로젝트```](https://github.com/likelion-devone/snappy)                                                                                                                                                                     	|   	|
-| ```18주차``` 	| ```22.12.26 ~ 22.12.30``` 	| □   	|                                                                                                                                                                       	|   	|
+| ```18주차``` 	| ```22.12.26 ~ 22.12.30``` 	| ☑︎   	|  [```프로젝트```](https://github.com/likelion-devone/snappy)                                                                                                                                                                     	|   	|
 | ```19주차``` 	| ```23.01.02 ~ 23.01.06``` 	| □   	|                                                                                                                                                                       	|   	|
 
 
