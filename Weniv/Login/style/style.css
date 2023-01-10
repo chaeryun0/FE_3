@@ -1,0 +1,101 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+body,
+h2 {
+  margin: 0;
+}
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  vertical-align: top;
+}
+button {
+  padding: 0;
+  border: none;
+  color: inherit;
+}
+
+/* layout */
+
+/* design */
+.login {
+  width: 350px;
+  margin: 100px auto;
+  padding: 19px 16px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 13px 0;
+  margin: 16px 0;
+  background-color: #711bff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.login-button img {
+  height: 1.1em;
+  vertical-align: top;
+}
+
+.form_container {
+  position: relative;
+  color: #767676;
+}
+.find_id {
+  position: relative;
+  margin-left: 1.5em;
+}
+.find_id::before {
+  content: "";
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.3em;
+  background-image: url(/images/icon-lock.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -1.5em;
+}
+.find_id::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 1.1em;
+  background-color: #767676;
+  position: absolute;
+  right: -0.5em;
+}
+.find_pw {
+  margin-left: 0.9em;
+}
+
+.sign {
+  position: absolute;
+  right: 0;
+}
+.sign::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 1.2em;
+  height: 1.3em;
+  left: -1.5em;
+  background-image: url(/images/icon-user.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
