@@ -65,7 +65,7 @@ button {
   width: 1.2em;
   height: 1.2em;
   margin-right: 0.3em;
-  background-image: url(/images/icon-lock.png);
+  background-image: url(../image/icon-lock.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -95,7 +95,7 @@ button {
   width: 1.2em;
   height: 1.3em;
   left: -1.5em;
-  background-image: url(/images/icon-user.png);
+  background-image: url(../image/icon-user.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
