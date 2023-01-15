@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weniv Login</title>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <h1 class="ir">위니브 로그인 화면입니다.</h1>
-    <article>
+    <article class="init-login">
       <h2>위니브를 더 즐겁고 편리하게 이용하세요.</h2>
       <img src="image/weniv-logo.png" alt="위니브 로고" />
-      <button>로그인</button>
+      <button class="btn-login-main">로그인</button>
     </article>
 
-    <section>
+    <section class="modal-login none">
       <header>
         <h2>로그인 또는 회원가입</h2>
-        <button><span class="ir">닫기</span></button>
+        <button class="btn-close"><span class="ir">닫기</span></button>
       </header>
       <hr />
-      <div>
+      <div class="wrapper-window-login">
         <strong>위니브에서 여러분의 궁금증을 해결하세요! :)</strong>
         <form action="#" method="post">
           <input id="id" type="text" placeholder="아이디" required />
           <input id="pass" type="text" placeholder="비밀번호" required />
           <input id="check" class="input-hold none" type="checkbox" />
-          <label for="check">로그인 상태 유지</label>
-          <button>로그인</button>
+          <label class="label-check-hold" for="check">로그인 상태 유지</label>
+          <button class="btn-login-modal">로그인</button>
         </form>
         <p>
           <a class="anc-join" href="#">회원가입 </a>
