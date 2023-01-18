@@ -1,0 +1,186 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+h2,
+button,
+hr,
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f2f2f2;
+}
+button {
+  cursor: pointer;
+}
+/* 초기 화면 */
+.init-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 240px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.init-login img {
+  order: 1;
+}
+.init-login h2 {
+  order: 2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.init-login .btn-login-main {
+  order: 3;
+  width: 100%;
+  height: 60px;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 4px;
+}
+
+/* 로그인 모달 창 */
+.modal-login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 520px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 20px 0 0 0;
+}
+/* 모달 창 제목 */
+.modal-login header h2 {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.modal-login header .btn-close {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 22px;
+  right: 24px;
+  border: none;
+  background-color: transparent;
+  background-image: url("./image/close.png");
+  background-size: cover;
+}
+/* 로그인 입력 및 연결 창 묶음 */
+.wrapper-window-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 26px 24px 25px 24px;
+}
+.wrapper-window-login strong {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+/* 아이디 및 비밀번호 입력창 */
+#id,
+#pass {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 15px 16px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+/* 로그인 상태 유지 체크박스 */
+.none {
+  display: none;
+}
+.label-check-hold::before {
+  display: inline-block;
+  content: "";
+  width: 22px;
+  height: 22px;
+  vertical-align: -5px;
+  background-image: url("./image/check-box-off.png");
+  background-size: 22px 22px;
+  margin-top: 16px;
+  margin-right: 8px;
+}
+.input-hold:checked + .label-check-hold::before {
+  background-image: url("./image/check-box-on.png");
+}
+/* 로그인 버튼 */
+.modal-login .wrapper-window-login .btn-login-modal {
+  width: 100%;
+  height: 50px;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0 10px 0;
+}
+/* 회원가입 및 찾기 연결 */
+.wrapper-window-login p {
+  text-align: center;
+}
+.anc-join,
+.anc-find {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #767676;
+}
+.anc-join::after {
+  content: "|";
+  margin: 0 10px;
+}
+/* 또는 */
+.or-line {
+  margin: 21px 0 9px 0;
+}
+.anc-sns {
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #767676;
+  border: 1px solid #767676;
+  border-radius: 5px;
+  padding: 11px 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.anc-sns img {
+  vertical-align: top;
+}
+.anc-sns p {
+  margin: 0 auto;
+}
