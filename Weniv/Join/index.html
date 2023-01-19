@@ -54,5 +54,20 @@
         >
       </div>
     </section>
+    
+    <script>
+      const apploginbtn = document.querySelector(".btn-login-main");
+      const modal = document.querySelector(".modal-login");
+      const closebtn = document.querySelector(".btn-close");
+
+      apploginbtn.onclick = () => {
+        modal.classList.toggle("none");
+      };
+
+      closebtn.onclick = () => {
+        modal.classList.toggle("none");
+      };
+    </script>
   </body>
+  
 </html>
